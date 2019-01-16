@@ -24,12 +24,11 @@
 
 
 // Replace with your network details
-const char* ssid = "Beyond9-5 - WiFi";     //  your network SSID (name) 
-const char* pass = "Tucker43";    // your network password
+const char* ssid = "Enter your SSID";     //  your network SSID (name) 
+const char* pass = "SSID Password";    // your network password
 
 // the IP address of your InfluxDB host
-//35.188.140.132
-byte host[] = {35, 188, 140, 132};
+byte host[] = {127, 0, 0, 1};
 
 // the port that the InfluxDB UDP plugin is listening on
 int port = 8089;
